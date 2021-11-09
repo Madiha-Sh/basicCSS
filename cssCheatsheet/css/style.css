@@ -1,0 +1,120 @@
+body{
+    background-color: antiquewhite;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    /* Same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+/*Applies to any link on the page*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:darkred;
+}
+
+a:active{
+    color:darkblue;
+}
+
+/*
+a:visited{
+    color:green;
+}
+*/
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    border: none;
+    padding: 10px 15px;
+    background-color:black;
+    color: white;
+}
+
+.box1 {
+    background-color: rgb(243, 188, 166);
+    color:brown;
+    border-color: firebrick;
+    border-width: 5px;
+    border-color: black;
+    padding: 20px;
+    margin: 20px 0px;
+    border: 2px rgb(68, 2, 2) solid;
+}
+
+.box1 h1 {
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+.box2 {
+    border: 2px rgb(82, 4, 82) dotted;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.categories {
+    border: 2px darkslategray solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+    text-decoration:underline;
+    font-family: serif;
+    font-weight: 800;
+}
+.categories ul{
+    list-style: square;
+}
+
+
+.categories li{
+    padding-bottom: 5px;
+    border-bottom: 0.2px black solid;
+    list-style-image: none;  /*can use images here is want to*/
+
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 10px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 5px;
+    width:100%;
+}
+
+.block {
+    float: left;
+    width: 33.33%;
+    border: 1px black solid;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
